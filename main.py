@@ -17,12 +17,23 @@ while True:
         
         os.system('pause')
         
-        print('1 - Instalar todos os aplicativos')
+        print('1 - Instalar Office 365')
         print('2 - Sair')
         
         op = int(input('Selecione uma opção: '))
         
         os.system('cls')
+        
+        if op == 1:
+            
+            ...
+            
+        elif op == 2:
+            
+            break
+        
+    def ins_office():
+        
+        
 
-os.system('pause')
-os.system('cls')
+menu()
