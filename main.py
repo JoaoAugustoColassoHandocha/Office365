@@ -47,8 +47,6 @@ try:
     
     while True:
                 
-        os.system('pause')
-        os.system('cls')
         menu()
             
         print(f'\n{texto:^{largura}}\n')
