@@ -10,6 +10,10 @@ os.system('color 1f')
 try:
     
     def menu():
+        
+        print('Bem vindo ao instalador do Office 365!')
+        os.system('pause')
+        os.system('cls')
     
         while True:
                 
