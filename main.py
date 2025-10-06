@@ -59,4 +59,5 @@ try:
 
 except Exception  as error:
     
+    os.system('cls')
     print(f'{error.__class__.__name__}: {error}')
