@@ -47,9 +47,9 @@ try:
                     os.system('pause')
                     menu()
                 
-                def ins_office():
+    def ins_office():
                 
-                    ...
+        ...
 
 except Exception  as error:
     
