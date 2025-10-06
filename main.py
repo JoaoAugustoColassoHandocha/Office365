@@ -32,8 +32,14 @@ while True:
             
             break
         
+        else:
+            
+            print('Favor repassar opção correta!')
+            os.system('pause')
+            menu()
+        
     def ins_office():
         
-        
+        ...
 
 menu()
