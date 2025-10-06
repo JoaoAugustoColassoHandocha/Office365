@@ -17,8 +17,6 @@ try:
                 print('| OFFICE 365 |')
                 print('--------------\n')
                 
-                os.system('pause')
-                
                 print('1 - Instalar Office 365')
                 print('2 - Sair')
                 
