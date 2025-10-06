@@ -49,7 +49,9 @@ try:
                 
     def ins_office():
                 
-        ...
+        os.system('pause')
+        os.system('cls')
+        menu()
 
 except Exception  as error:
     
