@@ -43,19 +43,17 @@ try:
     texto = 'Bem vindo ao instalador do Office 365!'
     largura = 30
     
-        while True:
-            
-
+    while True:
                 
-    os.system('pause')
-    os.system('cls')
-    menu()
-        
-    print(f'\n{texto:^{largura}}\n')
-    os.system('pause')
-    os.system('cls')
+        os.system('pause')
+        os.system('cls')
+        menu()
+            
+        print(f'\n{texto:^{largura}}\n')
+        os.system('pause')
+        os.system('cls')
 
-    menu()
+        menu()
 
 except Exception  as error:
     
