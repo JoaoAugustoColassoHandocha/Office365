@@ -29,7 +29,7 @@ def menu():
                     
     elif op == 2:
                     
-        print('\nSaindo...\n!')
+        print('\nSaindo...!\n')
         os.system('pause')
         os.system('exit')
                 
