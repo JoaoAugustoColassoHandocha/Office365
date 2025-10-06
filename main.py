@@ -46,12 +46,14 @@ def ins_office():
 try:
     
     while True:
-                
-        menu()
             
         print(f'\n{texto:^{largura}}\n')
         os.system('pause')
         os.system('cls')
+        
+        menu()
+        
+        break
 
 except Exception  as error:
     
