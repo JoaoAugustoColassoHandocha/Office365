@@ -33,7 +33,7 @@ try:
                 
                 if op == 1:
                     
-                    ins_office
+                    ins_office()
                     
                 elif op == 2:
                     
