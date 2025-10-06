@@ -53,8 +53,6 @@ try:
         os.system('pause')
         os.system('cls')
 
-        menu()
-
 except Exception  as error:
     
     print(f'{error.__class__.__name__}: {error}')
