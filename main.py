@@ -16,6 +16,12 @@ while True:
         print('--------------\n')
         
         os.system('pause')
+        
+        print('1 - Instalar todos os aplicativos')
+        print('2 - Sair')
+        
+        op = int(input('Selecione uma opção: '))
+        
         os.system('cls')
 
 os.system('pause')
