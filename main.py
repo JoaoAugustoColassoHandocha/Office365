@@ -38,6 +38,7 @@ def menu():
                     
         print('Favor repassar opção correta!')
         os.system('pause')
+        os.system('cls')
         menu()
                 
 def ins_office():
