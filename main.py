@@ -31,6 +31,7 @@ def menu():
                     
         print('\nSaindo...!\n')
         os.system('pause')
+        os.system('cls')
         os.system('exit')
                 
     else:
