@@ -14,7 +14,7 @@ try:
     
     def menu():
         
-        print(f'\n{texto^{largura}}\n')
+        print(f'\n{texto:^{largura}}\n')
         os.system('pause')
         os.system('cls')
     
