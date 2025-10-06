@@ -7,6 +7,9 @@ import os
 
 os.system('color 1f')
 
+texto = 'Bem vindo ao instalador do Office 365!'
+largura = 30
+
 def menu():
                 
     print('\n--------------')
@@ -39,9 +42,6 @@ def menu():
 def ins_office():
 
 try:
-    
-    texto = 'Bem vindo ao instalador do Office 365!'
-    largura = 30
     
     while True:
                 
