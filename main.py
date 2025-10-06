@@ -27,7 +27,7 @@ try:
                 print('1 - Instalar Office 365')
                 print('2 - Sair')
                 
-                op = int(input('Selecione uma opção: '))
+                op = int(input('\nSelecione uma opção: '))
                 
                 os.system('cls')
                 
