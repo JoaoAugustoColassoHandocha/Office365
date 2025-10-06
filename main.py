@@ -41,6 +41,8 @@ def menu():
                 
 def ins_office():
 
+    ...
+
 try:
     
     while True:
