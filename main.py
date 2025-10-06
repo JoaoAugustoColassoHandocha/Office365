@@ -36,7 +36,7 @@ def menu():
                 
     else:
                     
-        print('Favor repassar opção correta!')
+        print('\nFavor repassar opção correta!\n')
         os.system('pause')
         os.system('cls')
         menu()
