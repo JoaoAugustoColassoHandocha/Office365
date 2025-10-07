@@ -15,6 +15,39 @@ def menu():
     print('\n--------------')
     print('| OFFICE 365 |')
     print('--------------\n')
+    
+    print('\n--------------')           
+    print('1 - Instalar Office 365')
+    print('2 - Sair')
+    print('--------------\n')
+                
+    op_menu = int(input('Selecione uma opção: '))
+                
+    os.system('cls')
+                
+    if op_menu == 1:
+                    
+        ins_office()
+                    
+    elif op_menu == 2:
+                    
+        print('\nSaindo...!\n')
+        os.system('pause')
+        os.system('cls')
+        os.system('exit')
+                
+    else:
+                    
+        print('\nFavor repassar opção correta!\n')
+        os.system('pause')
+        os.system('cls')
+        menu()
+                
+def ins_office():
+
+    print('\n--------------')
+    print('| OFFICE 365 |')
+    print('--------------\n')
                 
     print('1 - Instalar Office 365')
     print('2 - Sair')
@@ -40,10 +73,6 @@ def menu():
         os.system('pause')
         os.system('cls')
         menu()
-                
-def ins_office():
-
-    print('teste')
     os.system('pause')
     os.system('cls')
     menu()
