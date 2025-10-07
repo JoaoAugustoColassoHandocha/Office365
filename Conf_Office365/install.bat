@@ -1,1 +1,1 @@
-cd "C:\Users\jac0625\Desktop\office365" && setup.exe /configure configuration-Office365-x64.xml
+cd "Conf_Office365" && setup.exe /configure configuration-Office365-x64.xml
