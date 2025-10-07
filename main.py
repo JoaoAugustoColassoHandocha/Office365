@@ -44,13 +44,11 @@ def menu():
         menu()
                 
 def ins_office():
-
-    print('\n--------------')
-    print('| OFFICE 365 |')
-    print('--------------\n')
-                
+    
+    print('\n--------------')    
     print('1 - Instalar Office 365')
     print('2 - Sair')
+    print('--------------\n')
                 
     op_menu = int(input('\nSelecione uma opção: '))
                 
