@@ -44,6 +44,8 @@ def menu():
 def ins_office():
 
     print('teste')
+    os.system('pause')
+    os.system('cls')
     menu()
 
 try:
