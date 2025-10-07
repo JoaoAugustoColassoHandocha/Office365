@@ -13,11 +13,11 @@ largura = 30
 def menu():
                 
     print('\n--------------')
-    print('| OFFICE 365 |')
+    print('| OFFICE |')
     print('--------------\n')
     
     print('\n--------------')           
-    print('1 - Instalar Office 365')
+    print('1 - Instalar Office')
     print('2 - Sair')
     print('--------------\n')
                 
@@ -48,6 +48,8 @@ def ins_office():
     print('\n--------------')    
     print('1 - Instalar Office 365 - Configuração x64')
     print('1 - Instalar Office 365 - Configuração x86')
+    print('1 - Instalar Office 2019 - Enterprise')
+    print('1 - Instalar Office 2021 - Enterprise')
     print('2 - Sair')
     print('--------------\n')
                 
