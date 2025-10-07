@@ -19,15 +19,15 @@ def menu():
     print('1 - Instalar Office 365')
     print('2 - Sair')
                 
-    op = int(input('\nSelecione uma opção: '))
+    op_menu = int(input('\nSelecione uma opção: '))
                 
     os.system('cls')
                 
-    if op == 1:
+    if op_menu == 1:
                     
         ins_office()
                     
-    elif op == 2:
+    elif op_menu == 2:
                     
         print('\nSaindo...!\n')
         os.system('pause')
