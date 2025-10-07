@@ -50,15 +50,15 @@ def ins_office():
     print('2 - Sair')
     print('--------------\n')
                 
-    op_menu = int(input('\nSelecione uma opção: '))
+    op_install = int(input('Selecione uma opção: '))
                 
     os.system('cls')
                 
-    if op_menu == 1:
+    if op_install == 1:
                     
         ins_office()
                     
-    elif op_menu == 2:
+    elif op_install == 2:
                     
         print('\nSaindo...!\n')
         os.system('pause')
