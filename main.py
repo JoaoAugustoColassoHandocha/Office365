@@ -43,7 +43,7 @@ def menu():
                 
 def ins_office():
 
-    ...
+    print('teste')
 
 try:
     
