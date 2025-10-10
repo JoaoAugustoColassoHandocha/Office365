@@ -54,10 +54,10 @@ def ins_office():
     
     print('\n--------------')    
     print('1 - Instalar Office 365 - Configuração x64')
-    print('1 - Instalar Office 365 - Configuração x86')
-    print('1 - Instalar Office 2019 - Enterprise')
-    print('1 - Instalar Office 2021 - Enterprise')
-    print('2 - Sair')
+    print('2 - Instalar Office 365 - Configuração x86')
+    print('3 - Instalar Office 2019 - Enterprise')
+    print('4 - Instalar Office 2021 - Enterprise')
+    print('5 - Voltar ao menu')
     print('--------------\n')
                 
     op_install = int(input('Selecione uma opção: '))
