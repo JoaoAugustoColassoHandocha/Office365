@@ -73,26 +73,26 @@ def ins_office():
                 
     elif op_install == 1:
                     
-        ins_office()
+        print('1')
         
     elif op_install == 2:
                     
-        ins_office()
+        print('2')
     
     elif op_install == 3:
                     
-        ins_office()
+        print('3')
         
     elif op_install == 4:
                     
-        ins_office()
+        print('4')
                     
     elif op_install == 5:
                     
-        print('\nSaindo...!\n')
+        print('\nRetornando ao menu...!\n')
         os.system('pause')
         os.system('cls')
-        os.system('exit')
+        menu()
                 
     else:
                     
