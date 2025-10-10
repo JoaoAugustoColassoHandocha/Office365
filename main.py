@@ -98,9 +98,6 @@ def ins_office():
         os.system('cls')
         menu()
 
-    os.system('cls')
-    menu()
-
 print(f'\n{texto:^{largura}}\n')
 os.system('pause')
 os.system('cls')
