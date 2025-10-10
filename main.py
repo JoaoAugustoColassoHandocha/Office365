@@ -24,8 +24,15 @@ def menu():
     op_menu = int(input('Selecione uma opção: '))
                 
     os.system('cls')
-                
-    if op_menu == 1:
+    
+    if op_menu == '' or op_menu == ' ':
+        
+        print('\nFavor inserir opção desejada!\n')
+        os.system('pause')
+        os.system('cls')
+        menu()
+            
+    elif op_menu == 1:
                     
         ins_office()
                     
@@ -74,6 +81,7 @@ def ins_office():
         os.system('pause')
         os.system('cls')
         menu()
+        
     os.system('pause')
     os.system('cls')
     menu()
