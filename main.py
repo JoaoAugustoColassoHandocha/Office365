@@ -63,6 +63,13 @@ def ins_office():
     op_install = int(input('Selecione uma opção: '))
                 
     os.system('cls')
+    
+    if op_install == '' or op_install == ' ':
+        
+        print('\nFavor inserir opção desejada!\n')
+        os.system('pause')
+        os.system('cls')
+        menu()
                 
     elif op_install == 1:
                     
