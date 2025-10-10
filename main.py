@@ -12,14 +12,12 @@ largura = 30
 
 def menu():
                 
-    print('\n--------------')
-    print('| OFFICE |')
-    print('--------------\n')
-    
-    print('\n--------------')           
+    print('\n-------------------')
+    print('OFFICE')    
+    print('-------------------')           
     print('1 - Instalar Office')
     print('2 - Sair')
-    print('--------------\n')
+    print('-------------------\n')
                 
     op_menu = int(input('Selecione uma opção: '))
                 
