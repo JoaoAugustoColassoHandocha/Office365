@@ -90,7 +90,6 @@ def ins_office():
         print('\nRetornando ao menu...!\n')
         os.system('pause')
         os.system('cls')
-        menu()
                 
     else:
                     
@@ -98,8 +97,7 @@ def ins_office():
         os.system('pause')
         os.system('cls')
         menu()
-        
-    os.system('pause')
+
     os.system('cls')
     menu()
 
