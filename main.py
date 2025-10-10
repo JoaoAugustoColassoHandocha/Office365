@@ -19,7 +19,7 @@ def menu():
     print('2 - Sair')
     print('-------------------\n')
                 
-    op_menu = int(input('Selecione uma opção: '))
+    op_menu = input('Selecione uma opção: ')
                 
     os.system('cls')
     
@@ -30,11 +30,11 @@ def menu():
         os.system('cls')
         menu()
             
-    elif op_menu == 1:
+    elif op_menu == '1':
                     
         ins_office()
                     
-    elif op_menu == 2:
+    elif op_menu == '2':
                     
         print('\nSaindo...!\n')
         os.system('pause')
@@ -69,23 +69,23 @@ def ins_office():
         os.system('cls')
         menu()
                 
-    elif op_install == 1:
+    elif op_install == '1':
                     
         print('1')
         
-    elif op_install == 2:
+    elif op_install == '2':
                     
         print('2')
     
-    elif op_install == 3:
+    elif op_install == '3':
                     
         print('3')
         
-    elif op_install == 4:
+    elif op_install == '4':
                     
         print('4')
                     
-    elif op_install == 5:
+    elif op_install == '5':
                     
         print('\nRetornando ao menu...!\n')
         os.system('pause')
@@ -98,6 +98,7 @@ def ins_office():
         os.system('cls')
         menu()
 
+    os.system('pause')
     os.system('cls')
     menu()
 
