@@ -103,15 +103,8 @@ def ins_office():
     os.system('cls')
     menu()
 
-try:
-    
-        print(f'\n{texto:^{largura}}\n')
-        os.system('pause')
-        os.system('cls')
-        
-        menu()
-
-except Exception  as error:
-    
-    os.system('cls')
-    print(f'{error.__class__.__name__}: {error}')
+print(f'\n{texto:^{largura}}\n')
+os.system('pause')
+os.system('cls')
+       
+menu()
