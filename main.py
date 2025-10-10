@@ -74,8 +74,20 @@ def ins_office():
     elif op_install == 1:
                     
         ins_office()
-                    
+        
     elif op_install == 2:
+                    
+        ins_office()
+    
+    elif op_install == 3:
+                    
+        ins_office()
+        
+    elif op_install == 4:
+                    
+        ins_office()
+                    
+    elif op_install == 5:
                     
         print('\nSaindo...!\n')
         os.system('pause')
