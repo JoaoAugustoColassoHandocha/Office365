@@ -9,10 +9,11 @@ This project is ideal for system administrators or corporate environments that n
 
 '''
 
-import os
+import os # Importing the 'OS' module
 
 os.system('color 1f')
 
+# 
 text = 'Bem vindo ao instalador do Office!'
 width = 30
 
