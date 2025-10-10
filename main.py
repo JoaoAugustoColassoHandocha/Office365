@@ -64,7 +64,7 @@ def ins_office():
                 
     os.system('cls')
                 
-    if op_install == 1:
+    elif op_install == 1:
                     
         ins_office()
                     
