@@ -67,7 +67,7 @@ def ins_office():
         print('\nFavor inserir opção desejada!\n')
         os.system('pause')
         os.system('cls')
-        menu()
+        ins_office()
                 
     elif op_install == '1':
                     
