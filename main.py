@@ -72,7 +72,7 @@ def ins_office():
     elif op_install == '1':
                     
         print('Instalando Office 365 - Configuração x64')
-        print()
+        os.system('cd "Conf_Office365" && setup.exe /configure configuration-Office365-x64.xml')
         os.system('pause')
         os.system('cls')
         ins_office()
