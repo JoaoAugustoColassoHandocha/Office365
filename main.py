@@ -72,31 +72,44 @@ def ins_office():
     elif op_install == '1':
                     
         print('1')
+        os.system('pause')
+        os.system('cls')
+        ins_office()
         
     elif op_install == '2':
                     
         print('2')
+        os.system('pause')
+        os.system('cls')
+        ins_office()
     
     elif op_install == '3':
                     
         print('3')
+        os.system('pause')
+        os.system('cls')
+        ins_office()
         
     elif op_install == '4':
                     
         print('4')
+        os.system('pause')
+        os.system('cls')
+        ins_office()
                     
     elif op_install == '5':
                     
         print('\nRetornando ao menu...!\n')
         os.system('pause')
         os.system('cls')
+        menu()
                 
     else:
                     
         print('\nFavor repassar opção correta!\n')
         os.system('pause')
         os.system('cls')
-        menu()
+        ins_office()
 
 print(f'\n{texto:^{largura}}\n')
 os.system('pause')
