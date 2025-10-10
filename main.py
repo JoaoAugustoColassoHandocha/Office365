@@ -87,14 +87,16 @@ def ins_office():
     
     elif op_install == '3':
                     
-        print('3')
+        print('Instalando Office 2019 - Enterprise')
+        os.system('cd "Conf_Office365" && setup.exe /configure configuration-Office2019Enterprise.xml')
         os.system('pause')
         os.system('cls')
         ins_office()
         
     elif op_install == '4':
                     
-        print('4')
+        print('Instalando Office 2021 - Enterprise')
+        os.system('cd "Conf_Office365" && setup.exe /configure configuration-Office2021Enterprise.xml')
         os.system('pause')
         os.system('cls')
         ins_office()
