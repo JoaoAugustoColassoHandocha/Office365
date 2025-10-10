@@ -7,7 +7,7 @@ import os
 
 os.system('color 1f')
 
-texto = 'Bem vindo ao instalador do Office 365!'
+texto = 'Bem vindo ao instalador do Office!'
 largura = 30
 
 def menu():
