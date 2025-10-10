@@ -58,7 +58,7 @@ def ins_office():
     print('5 - Voltar ao menu')
     print('--------------\n')
                 
-    op_install = int(input('Selecione uma opção: '))
+    op_install = input('Selecione uma opção: ')
                 
     os.system('cls')
     
