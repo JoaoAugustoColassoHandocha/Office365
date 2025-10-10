@@ -98,7 +98,6 @@ def ins_office():
         os.system('cls')
         menu()
 
-    os.system('pause')
     os.system('cls')
     menu()
 
