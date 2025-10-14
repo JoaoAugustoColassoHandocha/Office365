@@ -13,7 +13,7 @@ import os # Importing the 'OS' module
 
 os.system('color 1f')
 
-# 
+# Declaration of the text and width variables
 text = 'Bem vindo ao instalador do Office!'
 width = 30
 
