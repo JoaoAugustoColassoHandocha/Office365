@@ -26,7 +26,8 @@ def menu():
     print('1 - Instalar Office')
     print('2 - Sair')
     print('-------------------\n')
-                
+    
+    # Menu Option Request Variable           
     op_menu = input('Selecione uma opção: ')
                 
     os.system('cls')
