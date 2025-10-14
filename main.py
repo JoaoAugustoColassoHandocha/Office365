@@ -128,6 +128,7 @@ def ins_office():
         os.system('cls')
         ins_office()
 
+# Printing the welcome message when opening the system.
 print(f'\n{text:^{width}}\n')
 os.system('pause')
 os.system('cls')
