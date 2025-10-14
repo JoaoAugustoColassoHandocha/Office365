@@ -17,6 +17,7 @@ os.system('color 1f')
 text = 'Bem vindo ao instalador do Office!'
 width = 30
 
+# 
 def menu():
                 
     print('\n-------------------')
