@@ -68,7 +68,8 @@ def ins_office():
     print('4 - Instalar Office 2021 - Enterprise')
     print('5 - Voltar ao menu')
     print('--------------\n')
-                
+    
+    # Option request variable to install a specific version of office or return to the menu.       
     op_install = input('Selecione uma opção: ')
                 
     os.system('cls')
