@@ -17,7 +17,7 @@ os.system('color 1f')
 text = 'Bem vindo ao instalador do Office!'
 width = 30
 
-# 
+# Creating a system menu function with options to install Office or exit the program
 def menu():
                 
     print('\n-------------------')
