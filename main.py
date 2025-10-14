@@ -32,7 +32,7 @@ def menu():
                 
     os.system('cls')
     
-    # Conditional structure in Python that processes user input in the menu, ensuring that the user enters a valid option, and if the field is empty or displays an error due to a wrong option, redirects the user back to the menu, displaying the error message.
+    # Conditional structure that processes user input in the menu, ensuring that the user enters a valid option, and if the field is empty or displays an error due to a wrong option, redirects the user back to the menu, displaying the error message.
     if op_menu == '' or op_menu == ' ':
         
         print('\nFavor inserir opção desejada!\n')
