@@ -57,7 +57,8 @@ def menu():
         os.system('pause')
         os.system('cls')
         menu()
-                
+
+# Creating the ins_office function with the Office version options to install or return to the application menu.                
 def ins_office():
     
     print('\n--------------')    
