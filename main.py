@@ -100,7 +100,7 @@ def ins_office():
     
     elif op_install == '3':
                     
-        print('Instalando Office 2019 - Enterprise')
+        print('\nInstalando Office 2019 - Enterprise\n')
         os.system('cd "Conf_Office365" && setup.exe /configure configuration-Office2019Enterprise.xml')
         os.system('pause')
         os.system('cls')
