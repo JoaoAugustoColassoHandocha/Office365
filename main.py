@@ -74,6 +74,7 @@ def ins_office():
                 
     os.system('cls')
     
+    # Conditional structure that processes the choice of the Office version to install, or the return to the menu, ensuring that the user enters a valid option and, if the field is empty or displays an error due to a wrong option, redirects the user back to the options, displaying the error message.    
     if op_install == '' or op_install == ' ':
         
         print('\nFavor inserir opção desejada!\n')
