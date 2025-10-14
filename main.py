@@ -108,7 +108,7 @@ def ins_office():
         
     elif op_install == '4':
                     
-        print('Instalando Office 2021 - Enterprise')
+        print('\nInstalando Office 2021 - Enterprise\n')
         os.system('cd "Conf_Office365" && setup.exe /configure configuration-Office2021Enterprise.xml')
         os.system('pause')
         os.system('cls')
