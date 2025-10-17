@@ -8,8 +8,12 @@ This project is ideal for system administrators or corporate environments that n
 
 #
 
-To install the application, [click here]()
+To install the application, [click here](https://github.com/JoaoAugustoColassoHandocha/OfficeInstaller/blob/main/Conf_Office365/OfficeInstaller.exe)
 
 #
 
+<p align="center">
+  
+  <img width="256" height="256" alt="ms_office_folder_icon_250661" src="https://github.com/user-attachments/assets/2c02360c-ad79-4077-907d-d0d80850d894" />
 
+</p>
